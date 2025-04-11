@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Switch Lie algebra implementation to use mujoco functions.
+- Rewrite some Lie algebra methods to use derivations with least operations.
+- Relax tolerances on test_solve_ik.py test_single_task_convergence.
+
+### Changed
+
 - Added support for Python 3.8.
 - Added equality operators for SE3 and SO3.
 - Added matrix Lie group interpolation.
